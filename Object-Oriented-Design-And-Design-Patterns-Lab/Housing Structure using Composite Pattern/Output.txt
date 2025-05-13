@@ -1,0 +1,16 @@
+You have entered the 4th Science Building
+You are currently in the 4th Science Building
+It contains...
+Computer Science & Engineering
+Pharmacy
+You have entered the Computer Science & Engineering
+You are currently in the Computer Science & Engineering
+It contains...
+Seminar Library
+Office
+App & Game Testing Lab
+You have entered the App & Game Testing Lab
+You are currently in the App & Game Testing Lab
+You have left the App & Game Testing Lab
+You have left the Computer Science & Engineering
+You have left the 4th Science Building

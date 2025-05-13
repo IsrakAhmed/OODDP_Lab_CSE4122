@@ -1,0 +1,3 @@
+interface HousingStructure {
+    void showStructure();
+}

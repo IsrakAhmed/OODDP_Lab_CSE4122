@@ -1,0 +1,107 @@
+:root{
+    --color1: #E1F7F5;
+    --color2: #9AC8CD;
+    --color3: #0E46A3;
+    --color4: #1E0342;
+    --font-family: 'monospace';
+    --max_width: 40cm;
+    --min_width: 30cm;
+    --home_max_width: 30cm;
+    --home_min_width: 27cm;
+    --edu_max_width: 30cm;
+    --edu_min_width: 19cm;
+
+}
+
+
+.navbar{
+    line-height: normal;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    height: 2.2cm;
+    max-width: var(--max_width);
+    min-width: var(--min_width);
+    align-self: center;
+}
+
+
+.navbar-item-container{
+    margin: 0;
+    width: auto;
+    padding-left: 20pt;
+    padding-right: 15pt;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* width: 3cm; */
+}
+
+.navbar-item{
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+    /* text-shadow: 2px 2px var(--color4); */
+    text-decoration: none;
+}
+
+.navbar-background{
+    background-color: var(--color3);
+    min-width: var(--min_width);
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--color1);
+    color: var(--color3);
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color:var(--color4);
+    /* border: 1pt solid black; */
+    font-weight: bolder;
+    text-shadow: 2px 2px var(--color2);
+    font-size: 20pt;
+    text-align: center;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button {
+    background-color: var(--color3);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: var(--color3);
+}
